@@ -50,6 +50,7 @@ After modifying this file, you'll want to convert the plist file back to binary 
 
 <strong>Warning: </strong>This will cause the application to bounce and the user may notice that the application restarted, although you could also potentially just be patient and wait for the user to restart their computer.
 
+Now anytime your victim receives a message containing your keyword, a shell command will be executed containing your payload!
 
 # Usage
 python iMessagesBackdoor.py [-h] [-handler HANDLERNAME] [--force] [--delete] [--verbose]
