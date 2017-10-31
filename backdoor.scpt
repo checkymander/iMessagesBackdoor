@@ -1,4 +1,5 @@
 using terms from application "Messages"
+	# This entire file is needed for the handler otherwise errors will be thrown.
 	
 	on received text invitation theText from theBuddy for theChat
 	end received text invitation
@@ -14,8 +15,6 @@ using terms from application "Messages"
 	
 	on buddy authorization requested theRequest
 	end buddy authorization requested
-	
-	# The following are unused but need to be defined to avoid an error
 	
 	on message sent theMessage for theChat
 		
