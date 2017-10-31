@@ -22,7 +22,7 @@ using terms from application "Messages"
 	
 	on message received theMessage from theBuddy for theChat
 		if theMessage contains "helloworld" then
-			do shell script "sqlite3 ~/Library/Messages/chat.db 'DELETE FROM message WHERE text=\"helloworld\";' && killall -9 \"Messages\" && open /Applications/Messages.app"
+			display dialog "Hello from message received handler!"
 		end if
 	end message received
 	
