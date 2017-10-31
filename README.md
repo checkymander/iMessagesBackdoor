@@ -16,9 +16,9 @@ iMessages supports an AppleScript handler that can be set to execute a shell com
 
 - Logout Finished
 
-By going to Preferences in the GUI you can set an AppleScript that defines what happens when each of these events triggers.
+By modifying the Preferences in the GUI you can set an AppleScript handler that defines what happens when each of these events triggers.
 
-However, on a Red Team engagement we'd likely want to do this without requiring GUI access to the machine. Luckily, we're still able to modify plist files manually in order to force the application to accept our AppleScript handler.
+However, on a Red Team engagement we'd likely want to do this exclusively from the command line. Luckily, we're able to manually modify  the plist file in order to force the application to accept our AppleScript handler.
 
 iMessages stores its preferences file in two locations:
 
