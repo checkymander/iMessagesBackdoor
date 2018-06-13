@@ -57,7 +57,7 @@ python iMessagesBackdoor.py [-h] [-handler HANDLERNAME] [--force] [--delete] [--
 
 -handler HANDLERNAME : The name of the applescript file that will be stored in the iMessages configuration (Does not require .scpt extension)
 
---force : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Force overwriting of the users currenct applescript event handler
+--force : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Force overwriting of the users current applescript event handler
 
 --delete :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Removes the current script handler.
 
