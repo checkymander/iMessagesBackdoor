@@ -1,6 +1,8 @@
 # iMessagesBackdoor
 A script to help set up an event handler in order to install a persistent backdoor that can be activated by sending a message.
 
+Note: This no longer works in newer versions of Mac OSX, iMessages has removed the ability to have AppleScript event handlers.
+
 # Explanation
 Just as <a href="https://www.n00py.io/2016/10/using-email-for-persistence-on-os-x/">Mail.app</a> and <a href="https://github.com/sensepost/ruler">Outlook</a> can be used to create a persistent backdoor on a victim, iMessages on Mac OS X can also be used in order to keep access to a victim machine.
 
